@@ -1,0 +1,23 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'facebook.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Facebook _$FacebookFromJson(Map<String, dynamic> json) => Facebook(
+      picture: json['picture'] == null
+          ? null
+          : FBPicher.fromJson(json['picture'] as Map<String, dynamic>),
+      id: json['id'] as String?,
+      name: json['name'] as String?,
+      email: json['email'] as String?,
+    );
+
+Map<String, dynamic> _$FacebookToJson(Facebook instance) => <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'email': instance.email,
+      'picture': instance.picture,
+    };

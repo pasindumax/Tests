@@ -1,0 +1,27 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+News _$NewsFromJson(Map<String, dynamic> json) => News(
+      id: json['id'] as int?,
+      title: json['title'] as String?,
+      description: json['description'] as String?,
+      address: json['address'] as String?,
+      postcode: json['postcode'] as String?,
+      latitude: json['latitude'] as String?,
+      longitude: json['longitude'] as String?,
+      image: json['image'] == null
+          ? null
+          : NewsPicher.fromJson(json['image'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$NewsToJson(News instance) => <String, dynamic>{
+      'id': instance.id,
+      'title': instance.title,
+      'description': instance.description,
+      'address': instance.address,
+      'postcode': instance.postcode,
+      'latitude': instance.latitude,
+      'longitude': instance.longitude,
+      'image': instance.image,
+    };

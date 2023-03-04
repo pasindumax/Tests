@@ -1,0 +1,73 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "FLUTTER-LAUNCH-DEV-ALL",
+        "dependsOn": [
+          "FLUTTER-LAUNCH-DEV-IOS",
+          "FLUTTER-LAUNCH-DEV-ANDROID",
+        ]
+      },
+      {
+        "label": "FLUTTER-LAUNCH-DEV-IOS",
+        "type": "shell",
+        "command": "flutter run --flavor dev --target lib/main_dev.dart -d 'iPhone 13' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-DEV-ANDROID",
+        "type": "shell",
+        "command": "flutter run --flavor dev --target lib/main_dev.dart -d 'sdk gphone64 arm64' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-QA-ALL",
+        "dependsOn": [
+          "FLUTTER-LAUNCH-QA-IOS",
+          "FLUTTER-LAUNCH-QA-ANDROID",
+        ]
+      },
+      {
+        "label": "FLUTTER-LAUNCH-QA-IOS",
+        "type": "shell",
+        "command": "flutter run --flavor qa --target lib/main_qa.dart -d 'iPhone 13' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-QA-ANDROID",
+        "type": "shell",
+        "command": "flutter run --flavor qa --target lib/main_qa.dart -d 'sdk gphone64 arm64' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-UAT-ALL",
+        "dependsOn": [
+          "FLUTTER-LAUNCH-UAT-IOS",
+          "FLUTTER-LAUNCH-UAT-ANDROID",
+        ]
+      },
+      {
+        "label": "FLUTTER-LAUNCH-UAT-IOS",
+        "type": "shell",
+        "command": "flutter run --flavor uat --target lib/main_uat.dart -d 'iPhone 13' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-UAT-ANDROID",
+        "type": "shell",
+        "command": "flutter run --flavor uat --target lib/main_uat.dart -d 'sdk gphone64 arm64' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-PROD-ALL",
+        "dependsOn": [
+          "FLUTTER-LAUNCH-PROD-IOS",
+          "FLUTTER-LAUNCH-PROD-ANDROID",
+        ]
+      },
+      {
+        "label": "FLUTTER-LAUNCH-PROD-IOS",
+        "type": "shell",
+        "command": "flutter run --flavor prod --target lib/main_prod.dart -d 'iPhone 13' "
+      },
+      {
+        "label": "FLUTTER-LAUNCH-PROD-ANDROID",
+        "type": "shell",
+        "command": "flutter run --flavor prod --target lib/main_prod.dart -d 'sdk gphone64 arm64' "
+      }
+    ]
+  }

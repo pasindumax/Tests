@@ -1,0 +1,18 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+FBPicherData _$FBPicherDataFromJson(Map<String, dynamic> json) => FBPicherData(
+      height: (json['height'] as num?)?.toDouble(),
+      isSilhouette: json['is_silhouette'] as bool?,
+      url: json['url'] as String?,
+      width: (json['width'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$FBPicherDataToJson(FBPicherData instance) =>
+    <String, dynamic>{
+      'height': instance.height,
+      'is_silhouette': instance.isSilhouette,
+      'url': instance.url,
+      'width': instance.width,
+    };

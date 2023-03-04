@@ -1,0 +1,27 @@
+{ "defaultMessageSubmitBtnTitle": "OK", 
+"errorMessageTitle": "Error Message",
+"successMessageTitle": "Success Message",
+"warningMessageTitle": "Warning Message",
+"infoMessageTitle": "Info Message",
+"primaryMessageTitle": "Success Message",
+    "validationIsRequired": "{fieldName} can not be empty",
+    "validationIsNumber": "{fieldName} is not a valid number",
+    "validationIsEmail": "{fieldName} is not a valid email",
+    "validationPasswordNotEqualsToConfirmPassword": "Password is not matched with confirm password.",
+    "validationMinLengthRequired": "{fieldName} length should be greater than {requiredMinLength}",
+    "validationMaxLengthRequired": "{fieldName} length should be less than {requiredMaxLength}",
+    "validationEmailNotValid": "Email is not valid",
+    "validationPhoneNumberNotValid": "Phone Number is not valid",
+    "signinSignInToContinue": "SignIn To Continue",
+    "signinTestApp": "Test App",
+    "signinUserName": "User Name",
+     "signinPassword": "Password",
+     "signin": "Signin",
+     "forgotPassword": "Forgo Password",
+     "singinTheUsernameOrPasswordIsIncorrect": "The username or password is incorrect",
+     "signSignInWithFacebook": "Sign In With Facebook",
+     "signinOR": "- OR- ",
+     "landingLogout": "Logout"
+     
+    
+}

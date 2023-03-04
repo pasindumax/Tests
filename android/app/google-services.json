@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "98410297080",
+    "project_id": "flutter-login-44dcf",
+    "storage_bucket": "flutter-login-44dcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98410297080:android:41146778e43ba401902d0d",
+        "android_client_info": {
+          "package_name": "com.pasindu.testapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98410297080-ld18d2pufpn686gcbk2bgtdmdagblrpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3MVCMg96Ajv6Hw8ojmN0VYs3xs9ro6Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98410297080-ld18d2pufpn686gcbk2bgtdmdagblrpg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "98410297080-gd67utu2hb5lba9d91r7s5s9h6vaba8f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pasindu.testapp2.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

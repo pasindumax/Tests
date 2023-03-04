@@ -1,0 +1,143 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'landing.store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+
+mixin _$LandingStore on _LandingStore, Store {
+  final _$isLoadingAtom = Atom(name: '_LandingStore.isLoading');
+
+  @override
+  bool get isLoading {
+    _$isLoadingAtom.reportRead();
+    return super.isLoading;
+  }
+
+  @override
+  set isLoading(bool value) {
+    _$isLoadingAtom.reportWrite(value, super.isLoading, () {
+      super.isLoading = value;
+    });
+  }
+
+  final _$commonErrorAtom = Atom(name: '_LandingStore.commonError');
+
+  @override
+  String? get commonError {
+    _$commonErrorAtom.reportRead();
+    return super.commonError;
+  }
+
+  @override
+  set commonError(String? value) {
+    _$commonErrorAtom.reportWrite(value, super.commonError, () {
+      super.commonError = value;
+    });
+  }
+
+  final _$newstListAtom = Atom(name: '_LandingStore.newstList');
+
+  @override
+  List<News>? get newstList {
+    _$newstListAtom.reportRead();
+    return super.newstList;
+  }
+
+  @override
+  set newstList(List<News>? value) {
+    _$newstListAtom.reportWrite(value, super.newstList, () {
+      super.newstList = value;
+    });
+  }
+
+  final _$facebookAtom = Atom(name: '_LandingStore.facebook');
+
+  @override
+  Facebook? get facebook {
+    _$facebookAtom.reportRead();
+    return super.facebook;
+  }
+
+  @override
+  set facebook(Facebook? value) {
+    _$facebookAtom.reportWrite(value, super.facebook, () {
+      super.facebook = value;
+    });
+  }
+
+  final _$setCommonStatusAsyncAction =
+      AsyncAction('_LandingStore.setCommonStatus');
+
+  @override
+  Future<void> setCommonStatus({required bool loading, String? error}) {
+    return _$setCommonStatusAsyncAction
+        .run(() => super.setCommonStatus(loading: loading, error: error));
+  }
+
+  final _$initAsyncAction = AsyncAction('_LandingStore.init');
+
+  @override
+  Future<void> init(BuildContext context) {
+    return _$initAsyncAction.run(() => super.init(context));
+  }
+
+  final _$getNewsAsyncAction = AsyncAction('_LandingStore.getNews');
+
+  @override
+  Future<void> getNews() {
+    return _$getNewsAsyncAction.run(() => super.getNews());
+  }
+
+  final _$getFBDataAsyncAction = AsyncAction('_LandingStore.getFBData');
+
+  @override
+  Future<void> getFBData() {
+    return _$getFBDataAsyncAction.run(() => super.getFBData());
+  }
+
+  final _$getFBLogoutAsyncAction = AsyncAction('_LandingStore.getFBLogout');
+
+  @override
+  Future<void> getFBLogout(BuildContext context) {
+    return _$getFBLogoutAsyncAction.run(() => super.getFBLogout(context));
+  }
+
+  final _$_LandingStoreActionController =
+      ActionController(name: '_LandingStore');
+
+  @override
+  void destroy(BuildContext context) {
+    final _$actionInfo = _$_LandingStoreActionController.startAction(
+        name: '_LandingStore.destroy');
+    try {
+      return super.destroy(context);
+    } finally {
+      _$_LandingStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void navigateToLandingPage(BuildContext context) {
+    final _$actionInfo = _$_LandingStoreActionController.startAction(
+        name: '_LandingStore.navigateToLandingPage');
+    try {
+      return super.navigateToLandingPage(context);
+    } finally {
+      _$_LandingStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+isLoading: ${isLoading},
+commonError: ${commonError},
+newstList: ${newstList},
+facebook: ${facebook}
+    ''';
+  }
+}

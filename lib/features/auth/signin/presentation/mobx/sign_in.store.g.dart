@@ -1,0 +1,258 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'sign_in.store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+
+mixin _$SignInStore on _SignInStore, Store {
+  final _$isConnectionLoadingAtom =
+      Atom(name: '_SignInStore.isConnectionLoading');
+
+  @override
+  bool? get isConnectionLoading {
+    _$isConnectionLoadingAtom.reportRead();
+    return super.isConnectionLoading;
+  }
+
+  @override
+  set isConnectionLoading(bool? value) {
+    _$isConnectionLoadingAtom.reportWrite(value, super.isConnectionLoading, () {
+      super.isConnectionLoading = value;
+    });
+  }
+
+  final _$getConnectionErrorAtom =
+      Atom(name: '_SignInStore.getConnectionError');
+
+  @override
+  String? get getConnectionError {
+    _$getConnectionErrorAtom.reportRead();
+    return super.getConnectionError;
+  }
+
+  @override
+  set getConnectionError(String? value) {
+    _$getConnectionErrorAtom.reportWrite(value, super.getConnectionError, () {
+      super.getConnectionError = value;
+    });
+  }
+
+  final _$getConnectionSuccessAtom =
+      Atom(name: '_SignInStore.getConnectionSuccess');
+
+  @override
+  String? get getConnectionSuccess {
+    _$getConnectionSuccessAtom.reportRead();
+    return super.getConnectionSuccess;
+  }
+
+  @override
+  set getConnectionSuccess(String? value) {
+    _$getConnectionSuccessAtom.reportWrite(value, super.getConnectionSuccess,
+        () {
+      super.getConnectionSuccess = value;
+    });
+  }
+
+  final _$userNameAtom = Atom(name: '_SignInStore.userName');
+
+  @override
+  String? get userName {
+    _$userNameAtom.reportRead();
+    return super.userName;
+  }
+
+  @override
+  set userName(String? value) {
+    _$userNameAtom.reportWrite(value, super.userName, () {
+      super.userName = value;
+    });
+  }
+
+  final _$passwordAtom = Atom(name: '_SignInStore.password');
+
+  @override
+  String? get password {
+    _$passwordAtom.reportRead();
+    return super.password;
+  }
+
+  @override
+  set password(String? value) {
+    _$passwordAtom.reportWrite(value, super.password, () {
+      super.password = value;
+    });
+  }
+
+  final _$isLoadingAtom = Atom(name: '_SignInStore.isLoading');
+
+  @override
+  bool get isLoading {
+    _$isLoadingAtom.reportRead();
+    return super.isLoading;
+  }
+
+  @override
+  set isLoading(bool value) {
+    _$isLoadingAtom.reportWrite(value, super.isLoading, () {
+      super.isLoading = value;
+    });
+  }
+
+  final _$authenticationErrorAtom =
+      Atom(name: '_SignInStore.authenticationError');
+
+  @override
+  String? get authenticationError {
+    _$authenticationErrorAtom.reportRead();
+    return super.authenticationError;
+  }
+
+  @override
+  set authenticationError(String? value) {
+    _$authenticationErrorAtom.reportWrite(value, super.authenticationError, () {
+      super.authenticationError = value;
+    });
+  }
+
+  final _$initUIAsyncAction = AsyncAction('_SignInStore.initUI');
+
+  @override
+  Future<void> initUI(BuildContext context) {
+    return _$initUIAsyncAction.run(() => super.initUI(context));
+  }
+
+  final _$setSignInStatusAsyncAction =
+      AsyncAction('_SignInStore.setSignInStatus');
+
+  @override
+  Future<void> setSignInStatus(
+      {required bool loading, String? error, AuthToken? authToken}) {
+    return _$setSignInStatusAsyncAction.run(() => super
+        .setSignInStatus(loading: loading, error: error, authToken: authToken));
+  }
+
+  final _$signInAsyncAction = AsyncAction('_SignInStore.signIn');
+
+  @override
+  Future<void> signIn(BuildContext context) {
+    return _$signInAsyncAction.run(() => super.signIn(context));
+  }
+
+  final _$faceBooksignInAsyncAction =
+      AsyncAction('_SignInStore.faceBooksignIn');
+
+  @override
+  Future<void> faceBooksignIn(BuildContext context) {
+    return _$faceBooksignInAsyncAction.run(() => super.faceBooksignIn(context));
+  }
+
+  final _$_SignInStoreActionController = ActionController(name: '_SignInStore');
+
+  @override
+  void init(BuildContext context) {
+    final _$actionInfo =
+        _$_SignInStoreActionController.startAction(name: '_SignInStore.init');
+    try {
+      return super.init(context);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void destroy(BuildContext context) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.destroy');
+    try {
+      return super.destroy(context);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void setConnectionLandingStatus(
+      {bool loading = false, String? error, String? success}) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.setConnectionLandingStatus');
+    try {
+      return super.setConnectionLandingStatus(
+          loading: loading, error: error, success: success);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void resetConnectionLandingStatus() {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.resetConnectionLandingStatus');
+    try {
+      return super.resetConnectionLandingStatus();
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void setMobileNumber(String? value) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.setMobileNumber');
+    try {
+      return super.setMobileNumber(value);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void setPassword(String? value) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.setPassword');
+    try {
+      return super.setPassword(value);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void navigateToLandingPage(BuildContext context) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.navigateToLandingPage');
+    try {
+      return super.navigateToLandingPage(context);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void exitApp(BuildContext context) {
+    final _$actionInfo = _$_SignInStoreActionController.startAction(
+        name: '_SignInStore.exitApp');
+    try {
+      return super.exitApp(context);
+    } finally {
+      _$_SignInStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+isConnectionLoading: ${isConnectionLoading},
+getConnectionError: ${getConnectionError},
+getConnectionSuccess: ${getConnectionSuccess},
+userName: ${userName},
+password: ${password},
+isLoading: ${isLoading},
+authenticationError: ${authenticationError}
+    ''';
+  }
+}

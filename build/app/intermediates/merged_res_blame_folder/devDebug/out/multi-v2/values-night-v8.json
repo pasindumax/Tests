@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Pasindu\\Documents\\jobtest\\Developer_Test2\\build\\app\\intermediates\\incremental\\mergeDevDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Pasindu\\Documents\\jobtest\\Developer_Test2\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,1003",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "661,1167"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,549",
+                        "endLines": "9,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "544,713"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Pasindu\\.gradle\\caches\\transforms-2\\files-2.1\\33e6b6fcd4851400b8ad00c7c26d357f\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "718,788,872,956,1052,1154,1256,1350",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "783,867,951,1047,1149,1251,1345,1434"
+                    }
+                }
+            ]
+        }
+    ]
+}
